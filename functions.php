@@ -6,5 +6,5 @@ function getTodoList()
 }
 function createData($post)
 {
-  createTodoData($post['content']);
+    createTodoData($post['content']);
 }

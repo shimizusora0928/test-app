@@ -21,6 +21,7 @@ require_once('functions.php');
         <th>内容</th>
         <th>更新</th>
         <th>削除</th>
+      <tr>
         <?php foreach (getTodoList() as $todo): ?>
           <tr>
             <td><?= $todo['id']; ?></td>
@@ -35,8 +36,7 @@ require_once('functions.php');
               </form>
             </td>
           </tr>
-        <?php endforeach; ?>
-      </tr>
+      <?php endforeach; ?>
     </table>
   </div>
 </body>
